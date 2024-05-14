@@ -18,6 +18,8 @@ If you are testing it on Postman, the body should be:
   "title": "Sample Post",
   "content": "This is a sample post content."
 }
+
+# 2) Adding a Comment on the post
 Adding a Comment to a Po
 Make a POST request to http://localhost:3000/comments/PostId, replacing PostId with the ID of the post.
 
