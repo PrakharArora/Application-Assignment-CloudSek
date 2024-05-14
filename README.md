@@ -21,7 +21,7 @@ npm run dev
 ```
 ![image](https://github.com/PrakharArora/Application-Assignment-CloudSek/assets/106022380/df37b633-5fcf-4655-8a15-df9e16bc340d)
 
-```
+
 # Adding Comment to a post
 <h3>To add a comment, make a POST request to http://localhost:3000/comments/PostId, replacing PostId with the ID of the post.</h3>
 
