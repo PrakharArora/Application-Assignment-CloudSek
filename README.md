@@ -1,30 +1,36 @@
 # MongoDB Connection Setup
 
-To connect to MongoDB, set your username and password in the connection string in index.js.
+To connect to MongoDB, set your username and password in the connection string in `index.js`.
 
 # Starting the Server
 
 To start the server, run:
 npm run dev
 
-```bash
+# Create the Post
 
+<h3>If you are testing it on Postman, the body should be:</h3>
 
-# Creating Post
-1) Creating a Post
-Make a POST request to http://localhost:3000/posts
+<h3>Make a POST request to http://localhost:3000/posts.</h3>
 
-If you are testing it on Postman, the body should be:
-
+```json
 {
   "title": "Sample Post",
   "content": "This is a sample post content."
 }
+```
+![image](https://github.com/PrakharArora/Application-Assignment-CloudSek/assets/106022380/df37b633-5fcf-4655-8a15-df9e16bc340d)
 
- 2) Adding a Comment
-To add a comment, make a POST request to http://localhost:3000/comments/PostId, replacing PostId with the ID of the post.
+```
+# Adding Comment to a post
+<h3>To add a comment, make a POST request to http://localhost:3000/comments/PostId, replacing PostId with the ID of the post.</h3>
 
+
+```json
 {
   "text": "This is a *bold* and _italic_ comment.",
   "markdownContent": "This is a **bold** and _italic_ comment."
 }
+
+```
+![image](https://github.com/PrakharArora/Application-Assignment-CloudSek/assets/106022380/7078c436-d92a-4d15-a561-0e6407409285)
