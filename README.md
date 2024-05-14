@@ -5,11 +5,12 @@ To connect to MongoDB, set your username and password in the connection string i
 # Starting the Server
 
 To start the server, run:
-
-```bash
 npm run dev
 
+```bash
 
+
+# Creating Post
 1) Creating a Post
 Make a POST request to http://localhost:3000/posts
 
